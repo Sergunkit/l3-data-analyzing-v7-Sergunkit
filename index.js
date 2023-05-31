@@ -6,10 +6,10 @@ export default function solution(content) {
      .map((str) => (str).split('|'))
      .map((str) => str.map((el) => el.trim()))
      .map((el) => el.filter((elt) => (elt)));
-     console.log(data.length);
+     console.log(`'Число записей: ${data.length}'`);
      const ters = data.map((el) => el[4]).sort()
-     console.log(ters);
-     
+     console.log(`'Список округов: ${ters}'`);
+
 
 
     // console.log(data);
